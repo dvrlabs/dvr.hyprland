@@ -1,0 +1,77 @@
+# FEATURES / EXTRAS
+# bind = $MOD ALT, R, exec, $scripts/Refresh.sh # Refresh waybar, swaync, rofi
+# bind = $MOD ALT, E, exec, $scripts/RofiEmoji.sh # emoji
+# bind = $MOD, S, exec, $scripts/RofiSearch.sh # Google search from Rofi
+# bind = $MOD SHIFT, B, exec, $scripts/ChangeBlur.sh # Toggle blur settings 
+# bind = $MOD SHIFT, G, exec, $scripts/GameMode.sh # animations ON/OFF
+# bind = $MOD ALT, L, exec, $scripts/ChangeLayout.sh # Toggle Master or Dwindle Layout
+
+# bind = CTRL ALT, Delete, exec, hyprctl dispatch exit 0
+# bind = $MOD ALT, F, exec, hyprctl dispatch workspaceopt allfloat
+# bind = $MOD SHIFT, Q, exec, $scripts/KillActiveProcess.sh
+# bind = CTRL ALT, L, exec, $scripts/LockScreen.sh
+# bind = $MOD SHIFT, M, exec, $scripts/RofiBeats.sh # online music
+# bind = $MOD, W, exec, $scripts/WallpaperSelect.sh # Select wallpaper to apply
+# bind = $MOD, H, exec, $scripts/KeyHints.sh # Small help file
+# bindl = , xf86Sleep, exec, systemctl suspend  # sleep button 
+# bindl = , xf86Rfkill, exec, $scripts/AirplaneMode.sh #Airplane mode
+# bind = $MOD SHIFT, W, exec, $scripts/WallpaperEffects.sh # Wallpaper Effects by imagemagickWW
+# bind = CTRL ALT, W, exec, $scripts/WallpaperRandom.sh # Random wallpapers
+# bind = $MOD ALT, O, exec, hyprctl setprop active opaque toggle #disable opacity to active window
+
+
+# Waybar / Bar related
+# bind = $MOD, B, exec, pkill -SIGUSR1 waybar # Toggle hide/show waybar 
+# bind = $MOD CTRL, B, exec, $scripts/WaybarStyles.sh # Waybar Styles Menu
+# bind = $MOD ALT, B, exec, $scripts/WaybarLayout.sh # Waybar Layout Menu
+
+
+# Master Layout
+# bind = $MOD CTRL, D, layoutmsg, removemaster
+# bind = $MOD, I, layoutmsg, addmaster
+# bind = $MOD, J, layoutmsg, cyclenext
+# bind = $MOD, K, layoutmsg, cycleprev
+# bind = $MOD, M, exec, hyprctl dispatch splitratio 0.3
+# bind = $MOD, P, pseudo, # dwindle
+# bind = $MOD CTRL, Return, layoutmsg, swapwithmaster
+
+
+# Screenshot keybindings,  You may need to press Fn key as well
+# bind = $MOD, Print, exec, $scripts/ScreenShot.sh --now
+# bind = $MOD SHIFT, Print, exec, $scripts/ScreenShot.sh --area
+# bind = $MOD CTRL, Print, exec, $scripts/ScreenShot.sh --in5 #screenshot in 5 secs
+# bind = $MOD CTRL SHIFT, Print, exec, $scripts/ScreenShot.sh --in10 #screenshot in 10 secs
+# bind = ALT, Print, exec, $scripts/ScreenShot.sh --active #take screenshot of active window
+#
+#
+# media controls using keyboards
+# bindl = , xf86AudioPlayPause, exec, $scripts/MediaCtrl.sh --pause
+# bindl = , xf86AudioPause, exec, $scripts/MediaCtrl.sh --pause
+# bindl = , xf86AudioPlay, exec, $scripts/MediaCtrl.sh --pause
+# bindl = , xf86AudioNext, exec, $scripts/MediaCtrl.sh --nxt
+# bindl = , xf86AudioPrev, exec, $scripts/MediaCtrl.sh --prv
+# bindl = , xf86audiostop, exec, $scripts/MediaCtrl.sh --stop
+#
+#
+#
+# bind = $MOD, A, exec, pkill rofi || true && ags -t 'overview'
+#
+#
+# bind = $MOD ALT, C, exec, $scripts/RofiCalc.sh # calculator (qalculate)
+# bindn = ALT_L, SHIFT_L, exec, $scripts/SwitchKeyboardLayout.sh # Changing the keyboard layout
+#
+#
+# Resize windows
+# binde = $MOD SHIFT, left, resizeactive,-50 0
+# binde = $MOD SHIFT, right, resizeactive,50 0
+# binde = $MOD SHIFT, up, resizeactive,0 -50
+# binde = $MOD SHIFT, down, resizeactive,0 50
+#
+#
+# bindl = , xf86audiomute, exec, $scripts/Volume.sh --toggle
+#
+ # Cycle windows if floating bring to top
+# bind = ALT, tab, cyclenext
+# bind = ALT, tab, bringactivetotop  
+
+# Special Keys / Hot Keys
