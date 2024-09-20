@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install wf-recorder v4l2loopback-utils v4l2loopback-dkms
+
 # Create the systemd service file for v4l2loopback
 echo "Creating /etc/systemd/system/v4l2loopback.service..."
 
