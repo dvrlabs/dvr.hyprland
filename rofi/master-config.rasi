@@ -26,13 +26,13 @@ configuration {
 * {
 
     background-alt:              #ffd60a; // Buttons background
-    selected:                    #5ac8fa; // Button selected
+    selected:                    @color12; // Button selected
     active:                      #ffd60a; // Window activated
     urgent:                      #ffd60a; // When hovering the activated window (maybe more?)
 
-    text-selected:               #1e1e1e;
-    text-color:                  #ffffff;
-    border-color:                #0a84ff;
+    text-selected:               @color0;
+    text-color:                  @color15;
+    border-color:                @color12;
 }
 
 /* ---- Window ---- */
